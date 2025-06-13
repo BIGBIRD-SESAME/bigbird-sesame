@@ -63,7 +63,7 @@ var showSeedInfo = (function(undefined) {
 			if (info.enteredText) {
 				setDisplayByClassName("opttext enteredText", "inline");
 			}
-			for (var i=0; i<40; i++) {
+			for (var i=0; i<21; i++) {
 				setValueByClassName("textseed " + (i+1), info.strings[i]);
 			}
 			setDisplayById("byText", "inherit");
@@ -86,7 +86,7 @@ var showSeedInfo = (function(undefined) {
 			setDisplayById("seed4994", "inherit");
 		}
 		setValueByClassName("numseed base", info.baseSeed.toString());
-		for (var i=0; i<40; i++) {
+		for (var i=0; i<21; i++) {
 			setValueByClassName("numseed " + (i+1), info.similarSeeds[i].toString());
 		}
 		setDisplayById("similarSeeds", "inherit");
