@@ -86,7 +86,7 @@ var showSeedInfo = (function(undefined) {
 			setDisplayById("seed4994", "inherit");
 		}
 		setValueByClassName("numseed base", info.baseSeed.toString());
-		for (var i=0; i<20; i++) {
+		for (var i=0; i<40; i++) {
 			setValueByClassName("numseed " + (i+1), info.similarSeeds[i].toString());
 		}
 		setDisplayById("similarSeeds", "inherit");
