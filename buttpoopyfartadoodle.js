@@ -62,7 +62,7 @@ var seedInfo = (function(undefined) {
 		}
 		baseSeed = numHelper.breakLong(seed).and(MASK48);
 		res.similarSeeds = [];
-		for (var i=0; i<20; i++) {
+		for (var i=0; i<40; i++) {
 			res.similarSeeds.push(numHelper.fixLong(baseSeed.add(bigInt(Math.floor(Math.random() * 65536)).shiftLeft(48))).toString());
 		}
 		//for (var i=0; i<65536; i++) {
